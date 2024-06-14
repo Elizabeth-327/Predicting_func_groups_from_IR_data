@@ -2,16 +2,10 @@ import os
 import re
 import shutil
 from normalize_absorbances import normalize_ir_spectrum
-
 from decimal import Decimal
-
 from ifg import get_func_groups_from_compound_name
-
-import csv
 import scipy.io
-
 import numpy as np
-from sklearn.ensemble import RandomForestClassifier
 
 def get_sibling_directory_path(sibling_dir_name):
     #Get the directory of the current script
@@ -330,6 +324,5 @@ def main():
     func_groups_mat_file_path = os.path.join(matlab_dir, func_groups_relative_path)
     scipy.io.savemat(func_groups_mat_file_path, {'func_groups_array': all_func_groups_array})
 
-    
     
 main()
