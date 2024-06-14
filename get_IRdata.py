@@ -103,18 +103,11 @@ def get_all_wavelengths(input_directory, input_files):
             elif re.match(r'^[\d\s.]+$', line):
 
                 data = line.split(' ')
-                first_wavelength = Decimal(data[0])
-
-                #if input_filename == '55-43-6_normalized.jdx':
-                    #print(first_wavelength)
-                    
+                first_wavelength = Decimal(data[0])             
                 wavelengths.append(first_wavelength)
 
                 for i in range(2, len(data)):
                     wavelength = first_wavelength + (i-1)*deltax
-
-                    #if input_filename == '55-43-6_normalized.jdx':
-                        #print(wavelength)
                     wavelengths.append(wavelength)
 
     wavelengths = set(wavelengths)
