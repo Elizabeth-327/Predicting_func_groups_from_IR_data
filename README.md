@@ -4,7 +4,7 @@ This repository contains scripts to train a neural network to predict the functi
 To train the model, data was taken from the IR spectra of 100 different compounds. The data was preprocessed to normalize the absorbances and get all the wavelengths that the compounds were measured at. The functional groups in each compound were found by using an RDKit-based algorithm written by Richard Hall and Guillame Godin, credited in the Acknowledgments section. 
 
 Part of the predictor table:
-<img width="1057" alt="Screenshot 2024-06-13 at 8 07 45 PM" src="https://github.com/Elizabeth-327/Predicting_func_groups_from_IR_data/assets/118557290/8e1d72ac-79b5-4240-b913-8f5142916216"></br>
+<img width="902" alt="Screenshot 2024-06-14 at 11 14 33 AM" src="https://github.com/Elizabeth-327/Predicting_func_groups_from_IR_data/assets/118557290/08549558-cc58-41dc-b6ed-cd9b0fe4df19"></br>
 Each row corresponds to one compound. "None" indicates that no absorbance value was recorded for that specific wavelength. Each column represents one predictor class. There are 81721 wavelengths in the complete predictor table. 
 
 Part of the response table:
