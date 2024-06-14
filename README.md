@@ -13,7 +13,7 @@ Each row corresponds to one compound. '0' indicates the lack of the functional g
 
 ## How to Use
 1. Clone this repository to your local machine.
-2. Download MLKoji IR data. Navigate to MLKoji directory. Open NIST_IR_0.zip file. Make new folders listed in directory tree.
+2. Download MLKoji IR data. Navigate to MLKoji directory. Open NIST_IR_0.zip file. Make new folders and organize existing files to match the directory tree below.
    
 Directory tree:</br>
 .</br>
@@ -30,7 +30,7 @@ Directory tree:</br>
     └── train_nn.m
 
 4. Run get_IRdata.py. 
-5. Run train_nn.m.
+5. Run train_nn.m. **Note**: train_nn.m is currently written to fit a neural network for each response class. It will be updated to fit one multivariate regression model for all the response classes. 
 
 ## Dependencies
 - Python 3.0 or above
