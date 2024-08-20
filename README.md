@@ -5,12 +5,12 @@ This repository contains scripts to train a convolutional neural network (CNN) t
 1. Download MLKoji IR data and place in folder '0'.
 2. Create a virtual environment and install dependencies:
    $ pip install -r requirements.txt
-3. Run files in this order:
+4. Run files in this order:
    a. split_data.py
    b. hyperparameter_optimization.py
    c. train_model.py (update based on results of hyperparameter optimization)
    d. optimal_thresholding.py
-   3. evaluation.py
+   e. evaluation.py  
 
 ## Acknowledgments
 This project includes the following open-source components:  
