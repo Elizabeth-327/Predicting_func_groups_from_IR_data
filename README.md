@@ -15,5 +15,6 @@ This repository contains scripts to train a convolutional neural network (CNN) t
 ## Acknowledgments
 This project includes the following open-source components:  
 - **Algorithm for identifying functional groups from SMILES in ifg.py**: Adapted from Richard Hall and Guillaume Godin in RDKit's repository (https://github.com/rdkit/rdkit/blob/master/Contrib/IFG/ifg.py)
-- **CNN model architecture in hyperparameter_optimization.py**: Adapted from https://github.com/gj475/irchracterizationcnn/tree/main
+- **CNN model architecture in hyperparameter_optimization.py**: Adapted from https://github.com/gj475/irchracterizationcnn/tree/main<br>
+  
 The IR spectra used was taken by Koji Nakanishi.
